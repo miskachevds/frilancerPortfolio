@@ -20,12 +20,14 @@ const Navbar = () => {
                     </button>
 
                     <ul className="nav-list">
+
                         <li className="nav-list__item">
                             <NavLink to="/" className="nav-list__link nav-list__link--active">
                                 Home
                             </NavLink>
 
                         </li>
+                        
                         <li className="nav-list__item">
                             <a href="./projects.html" className="nav-list__link">Projects</a></li>
                         <li className="nav-list__item">
